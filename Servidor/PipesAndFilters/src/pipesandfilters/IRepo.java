@@ -1,0 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pipesandfilters;
+
+import DominioDTO.CuadroDTO;
+import DominioDTO.LineaDTO;
+import DominioDTO.MarcadorDTO;
+
+/**
+ *
+ * @author Equipo 3
+ */
+public interface IRepo {
+    MarcadorDTO obtenerMarcador();
+    LineaDTO obtenerUltimaLinea();
+    CuadroDTO obtenerUltimoCuadro();
+    int obtenerTurnoSiguiente();
+}
